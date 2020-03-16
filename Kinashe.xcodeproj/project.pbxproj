@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D27B1692422ACA37FDE544F /* Pods_Kinashe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCEA7CA5470917E4B5E80D7 /* Pods_Kinashe.framework */; };
+		B220DADD241DB81300E465E6 /* All_Business_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220DADC241DB81200E465E6 /* All_Business_Controller.swift */; };
+		B220DADF241DC2AE00E465E6 /* PromoOrAllLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220DADE241DC2AE00E465E6 /* PromoOrAllLayout.swift */; };
+		B220DAE1241DDBBD00E465E6 /* Nearby_Business_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220DAE0241DDBBD00E465E6 /* Nearby_Business_Controller.swift */; };
+		B273E37E240CB44E008D81E3 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B273E37D240CB44E008D81E3 /* SplashScreen.storyboard */; };
+		B2C5D25D2362BFA9000A64D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C5D25C2362BFA9000A64D3 /* Assets.xcassets */; };
+		B2C5D25F2362CC90000A64D3 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D25E2362CC90000A64D3 /* InternetConnection.swift */; };
+		B2C5D2612362CCAE000A64D3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D2602362CCAE000A64D3 /* HomeController.swift */; };
+		B2C5D2632362CCDE000A64D3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D2622362CCDE000A64D3 /* Location.swift */; };
+		B2C5D2652362CCEC000A64D3 /* LocationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D2642362CCEC000A64D3 /* LocationButton.swift */; };
+		B2C5D2692362CD26000A64D3 /* TransporationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D2682362CD26000A64D3 /* TransporationButton.swift */; };
+		B2C5D26D2362CD51000A64D3 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D26C2362CD51000A64D3 /* CustomCells.swift */; };
+		B2C5D26F2362CD62000A64D3 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D26E2362CD62000A64D3 /* Host.swift */; };
+		B2C5D2712362CD7E000A64D3 /* KinasheSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D2702362CD7E000A64D3 /* KinasheSite.swift */; };
+		B2C5D2732362CD8D000A64D3 /* CellSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D2722362CD8D000A64D3 /* CellSelected.swift */; };
+		B2C5D2752362CDA7000A64D3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D2742362CDA7000A64D3 /* Extensions.swift */; };
+		B2C5D2BE2362CE10000A64D3 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5D2AA2362CE0F000A64D3 /* MainPage.swift */; };
+		B2EFAFB02362A9CE00792043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EFAFAF2362A9CE00792043 /* AppDelegate.swift */; };
+		B2EFAFB92362A9D000792043 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EFAFB82362A9D000792043 /* Preview Assets.xcassets */; };
+		B2EFAFC62362AE5700792043 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2EFAFC52362AE5700792043 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		115413D07F6C990A2308EA6F /* Pods-Kinashe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinashe.release.xcconfig"; path = "Target Support Files/Pods-Kinashe/Pods-Kinashe.release.xcconfig"; sourceTree = "<group>"; };
+		5BCEA7CA5470917E4B5E80D7 /* Pods_Kinashe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kinashe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8723B1343FD7FE151841C5A2 /* Pods-Kinashe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinashe.debug.xcconfig"; path = "Target Support Files/Pods-Kinashe/Pods-Kinashe.debug.xcconfig"; sourceTree = "<group>"; };
+		B220DADC241DB81200E465E6 /* All_Business_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_Business_Controller.swift; sourceTree = "<group>"; };
+		B220DADE241DC2AE00E465E6 /* PromoOrAllLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoOrAllLayout.swift; sourceTree = "<group>"; };
+		B220DAE0241DDBBD00E465E6 /* Nearby_Business_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nearby_Business_Controller.swift; sourceTree = "<group>"; };
+		B273E37D240CB44E008D81E3 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		B2C5D25C2362BFA9000A64D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C5D25E2362CC90000A64D3 /* InternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		B2C5D2602362CCAE000A64D3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B2C5D2622362CCDE000A64D3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B2C5D2642362CCEC000A64D3 /* LocationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationButton.swift; sourceTree = "<group>"; };
+		B2C5D2682362CD26000A64D3 /* TransporationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransporationButton.swift; sourceTree = "<group>"; };
+		B2C5D26C2362CD51000A64D3 /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		B2C5D26E2362CD62000A64D3 /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		B2C5D2702362CD7E000A64D3 /* KinasheSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinasheSite.swift; sourceTree = "<group>"; };
+		B2C5D2722362CD8D000A64D3 /* CellSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSelected.swift; sourceTree = "<group>"; };
+		B2C5D2742362CDA7000A64D3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B2C5D2AA2362CE0F000A64D3 /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		B2EFAFAC2362A9CE00792043 /* Kinashe | ቅናሽ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kinashe | ቅናሽ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EFAFAF2362A9CE00792043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2EFAFB82362A9D000792043 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2EFAFBD2362A9D000792043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EFAFC52362AE5700792043 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2F746852362B84F00388708 /* Kinashe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kinashe.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EFAFA92362A9CE00792043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D27B1692422ACA37FDE544F /* Pods_Kinashe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44D80DD6A823B64EBF63909E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BCEA7CA5470917E4B5E80D7 /* Pods_Kinashe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2C5D2772362CDE6000A64D3 /* Read DB */ = {
+			isa = PBXGroup;
+			children = (
+				B2C5D2AA2362CE0F000A64D3 /* MainPage.swift */,
+				B220DADC241DB81200E465E6 /* All_Business_Controller.swift */,
+				B220DAE0241DDBBD00E465E6 /* Nearby_Business_Controller.swift */,
+			);
+			path = "Read DB";
+			sourceTree = "<group>";
+		};
+		B2EFAFA32362A9CE00792043 = {
+			isa = PBXGroup;
+			children = (
+				B2EFAFAE2362A9CE00792043 /* Kinashe */,
+				B2EFAFAD2362A9CE00792043 /* Products */,
+				E228E8023026477E1C79F1F2 /* Pods */,
+				44D80DD6A823B64EBF63909E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EFAFAD2362A9CE00792043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EFAFAC2362A9CE00792043 /* Kinashe | ቅናሽ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EFAFAE2362A9CE00792043 /* Kinashe */ = {
+			isa = PBXGroup;
+			children = (
+				B2C5D2772362CDE6000A64D3 /* Read DB */,
+				B2F746852362B84F00388708 /* Kinashe.entitlements */,
+				B2EFAFAF2362A9CE00792043 /* AppDelegate.swift */,
+				B2C5D25E2362CC90000A64D3 /* InternetConnection.swift */,
+				B2C5D2602362CCAE000A64D3 /* HomeController.swift */,
+				B220DADE241DC2AE00E465E6 /* PromoOrAllLayout.swift */,
+				B2C5D2622362CCDE000A64D3 /* Location.swift */,
+				B2C5D2642362CCEC000A64D3 /* LocationButton.swift */,
+				B2C5D2682362CD26000A64D3 /* TransporationButton.swift */,
+				B2C5D2702362CD7E000A64D3 /* KinasheSite.swift */,
+				B2C5D2722362CD8D000A64D3 /* CellSelected.swift */,
+				B2C5D2742362CDA7000A64D3 /* Extensions.swift */,
+				B2C5D26C2362CD51000A64D3 /* CustomCells.swift */,
+				B2C5D26E2362CD62000A64D3 /* Host.swift */,
+				B2C5D25C2362BFA9000A64D3 /* Assets.xcassets */,
+				B273E37D240CB44E008D81E3 /* SplashScreen.storyboard */,
+				B2EFAFC52362AE5700792043 /* GoogleService-Info.plist */,
+				B2EFAFBD2362A9D000792043 /* Info.plist */,
+				B2EFAFB72362A9D000792043 /* Preview Content */,
+			);
+			path = Kinashe;
+			sourceTree = "<group>";
+		};
+		B2EFAFB72362A9D000792043 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2EFAFB82362A9D000792043 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E228E8023026477E1C79F1F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8723B1343FD7FE151841C5A2 /* Pods-Kinashe.debug.xcconfig */,
+				115413D07F6C990A2308EA6F /* Pods-Kinashe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EFAFAB2362A9CE00792043 /* Kinashe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EFAFC02362A9D000792043 /* Build configuration list for PBXNativeTarget "Kinashe" */;
+			buildPhases = (
+				3B9F173BFAE48609833F7D3C /* [CP] Check Pods Manifest.lock */,
+				B2EFAFA82362A9CE00792043 /* Sources */,
+				B2EFAFA92362A9CE00792043 /* Frameworks */,
+				B2EFAFAA2362A9CE00792043 /* Resources */,
+				53B40D921E630E0D3A4DE6FD /* [CP] Embed Pods Frameworks */,
+				09C6889293D6396EA43DC6AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kinashe;
+			productName = Kinashe;
+			productReference = B2EFAFAC2362A9CE00792043 /* Kinashe | ቅናሽ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EFAFA42362A9CE00792043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Emmanuel Daniel Robi";
+				TargetAttributes = {
+					B2EFAFAB2362A9CE00792043 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = B2EFAFA72362A9CE00792043 /* Build configuration list for PBXProject "Kinashe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2EFAFA32362A9CE00792043;
+			productRefGroup = B2EFAFAD2362A9CE00792043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EFAFAB2362A9CE00792043 /* Kinashe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EFAFAA2362A9CE00792043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B273E37E240CB44E008D81E3 /* SplashScreen.storyboard in Resources */,
+				B2EFAFC62362AE5700792043 /* GoogleService-Info.plist in Resources */,
+				B2C5D25D2362BFA9000A64D3 /* Assets.xcassets in Resources */,
+				B2EFAFB92362A9D000792043 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09C6889293D6396EA43DC6AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kinashe/Pods-Kinashe-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kinashe/Pods-Kinashe-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kinashe/Pods-Kinashe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B9F173BFAE48609833F7D3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kinashe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53B40D921E630E0D3A4DE6FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kinashe/Pods-Kinashe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kinashe/Pods-Kinashe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kinashe/Pods-Kinashe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EFAFA82362A9CE00792043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C5D2712362CD7E000A64D3 /* KinasheSite.swift in Sources */,
+				B2C5D2732362CD8D000A64D3 /* CellSelected.swift in Sources */,
+				B2C5D2692362CD26000A64D3 /* TransporationButton.swift in Sources */,
+				B220DADF241DC2AE00E465E6 /* PromoOrAllLayout.swift in Sources */,
+				B2C5D2652362CCEC000A64D3 /* LocationButton.swift in Sources */,
+				B220DAE1241DDBBD00E465E6 /* Nearby_Business_Controller.swift in Sources */,
+				B2C5D26D2362CD51000A64D3 /* CustomCells.swift in Sources */,
+				B2C5D25F2362CC90000A64D3 /* InternetConnection.swift in Sources */,
+				B2C5D2752362CDA7000A64D3 /* Extensions.swift in Sources */,
+				B2EFAFB02362A9CE00792043 /* AppDelegate.swift in Sources */,
+				B2C5D26F2362CD62000A64D3 /* Host.swift in Sources */,
+				B2C5D2632362CCDE000A64D3 /* Location.swift in Sources */,
+				B220DADD241DB81300E465E6 /* All_Business_Controller.swift in Sources */,
+				B2C5D2BE2362CE10000A64D3 /* MainPage.swift in Sources */,
+				B2C5D2612362CCAE000A64D3 /* HomeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2EFAFBE2362A9D000792043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2EFAFBF2362A9D000792043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2EFAFC12362A9D000792043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8723B1343FD7FE151841C5A2 /* Pods-Kinashe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kinashe/Kinashe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kinashe/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J27MR8353;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Kinashe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eman.Kinashe;
+				PRODUCT_NAME = "Kinashe | ቅናሽ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2EFAFC22362A9D000792043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115413D07F6C990A2308EA6F /* Pods-Kinashe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kinashe/Kinashe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kinashe/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J27MR8353;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Kinashe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eman.Kinashe;
+				PRODUCT_NAME = "Kinashe | ቅናሽ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EFAFA72362A9CE00792043 /* Build configuration list for PBXProject "Kinashe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EFAFBE2362A9D000792043 /* Debug */,
+				B2EFAFBF2362A9D000792043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EFAFC02362A9D000792043 /* Build configuration list for PBXNativeTarget "Kinashe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EFAFC12362A9D000792043 /* Debug */,
+				B2EFAFC22362A9D000792043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2EFAFA42362A9CE00792043 /* Project object */;
+}
