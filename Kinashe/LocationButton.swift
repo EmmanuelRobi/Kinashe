@@ -422,7 +422,7 @@ class Shopping_Controller: UIViewController {
     }
     
     func NavBar() {
-        self.navigationItem.title = "Food | ምግብ "
+        self.navigationItem.title = "Shopping | ግብይት "
         let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
         view.backgroundColor = .AppDarkBlue()
